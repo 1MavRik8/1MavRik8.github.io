@@ -1,0 +1,43 @@
+h1{
+    color: aqua;
+}
+/* Задав колір заголовка*/
+p{
+    color: bisque;
+}
+/* Задав колір параграфа*/
+h2{
+    color: chocolate;
+}
+h3{
+    color: blue;
+}
+h4{
+    color: darkgreen;
+}
+h5{
+    color: brown;
+}
+h6{
+    color: lime;
+}
+
+/* Вирішив змінити колір посилання на гугл ,
+ адже попередній фіолетовий зливався з теперішнім фоном ))) */
+
+a{
+    color: azure;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+
+
+body{
+ background: rgb(47, 60, 79);  /* Додав свій колір для особистої творчості */
+ background-image: url(../images/18.png); /* Додав власну картинку на тематику космосу */
+ background-repeat: no-repeat;
+ background-attachment: fixed; /* Картинку зробив статичною */
+ background-position: top right;
+}
